@@ -1,20 +1,23 @@
-# 🏦 Desafio DIO: Sistema Bancário Simples
+# 🏦 Desafio DIO: Sistema Bancário Simples  
 
-Este projeto foi desenvolvido como parte de um desafio proposto pelo bootcamp da **DIO + Suzano**, com o objetivo de criar um sistema bancário simples, utilizando a linguagem de programação **Python**.
+Este projeto foi desenvolvido como parte de um desafio proposto pelo bootcamp da **DIO + Suzano**, com o objetivo de criar um sistema bancário simples em **Python**, aplicando conceitos de lógica de programação, funções e manipulação de dados.  
 
-## 💻 Tecnologias e Ferramentas Utilizadas
+## 💻 Tecnologias e Ferramentas Utilizadas  
 
-* **Linguagem de Programação:** Python
-* **Ambiente de Desenvolvimento (IDE):** Visual Studio Code (VS Code)
-* **Controle de Versão:** Git
+- **Linguagem de Programação:** Python  
+- **Ambiente de Desenvolvimento (IDE):** Visual Studio Code (VS Code)  
+- **Controle de Versão:** Git e GitHub  
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades  
 
-O sistema bancário implementa as seguintes operações:
+O sistema bancário implementa as seguintes operações:  
 
-* **Depósito:** Permite adicionar fundos a uma conta.
-* **Saque:** Permite retirar dinheiro de uma conta, com um limite de 3 saques diários e um valor máximo de R$ 500 por saque.
-* **Extrato:** Exibe o histórico de todas as transações (depósitos e saques) realizadas na conta, mostrando o saldo atual no final.
+- **Criar Usuário:** Cadastro de clientes do banco com CPF (único), nome, data de nascimento e endereço.  
+- **Criar Conta Corrente:** Associação de contas bancárias a usuários já cadastrados.  
+- **Listar Contas:** Exibe todas as contas criadas com agência, número da conta e titular.  
+- **Depósito:** Permite adicionar fundos a uma conta.  
+- **Saque:** Permite retirar dinheiro de uma conta, com um limite de 3 saques diários e um valor máximo de R$ 500 por saque.  
+- **Extrato:** Exibe o histórico de todas as transações (depósitos e saques) realizadas na conta, mostrando o saldo atual no final.  
 
 ## 🚀 Como Executar o Projeto
 
@@ -32,6 +35,16 @@ O sistema bancário implementa as seguintes operações:
     ```bash
     python sistema_bancario.py
     ```
+---
+
+## 📚 Aprendizados  
+
+Durante o desenvolvimento deste projeto, foram praticados conceitos como:  
+
+- Estruturação de código em **funções** para melhor organização.  
+- Uso de **listas e dicionários** para armazenar informações de usuários, contas e transações.  
+- Implementação de **regras de negócio** (limite de saques, valor máximo de saque, vínculo entre usuário e conta).  
+- Prática de **boas práticas de versionamento** com Git e GitHub.
 
 ---
 
