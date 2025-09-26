@@ -1,5 +1,5 @@
-from cliente import Cliente
-from historico import Historico
+from bank_system.cliente import Cliente
+from bank_system.historico import Historico
 
 # A classe Conta armazena atributos e métodos da conta bancária.
 # Isso demonstra o encapsulamento, pois o saldo e outros atributos

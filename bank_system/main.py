@@ -1,7 +1,7 @@
 import textwrap
-from cliente import PessoaFisica
-from conta import ContaCorrente
-from transacao import Deposito, Saque
+from bank_system.cliente import PessoaFisica
+from bank_system.conta import ContaCorrente
+from bank_system.transacao import Deposito, Saque
 
 def menu():
     menu_string = """\n
